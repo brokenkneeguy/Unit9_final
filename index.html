@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Sublime Project</title>
+   <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+ <h1>Monk’s Cafe </h1>
+<h3>“The Coffee Shop”</h3>
+ <div id="hero-image" class="back">
+
+ </div>
+ <h1>Reservations</h1>
+ <div id="left" class="floating-box">
+ <h2>Make a Reservation</h2>
+<form>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Day">
+    <button>Confirm Reservation</button>
+</form>
+ </div>
+ <div id="right" class="floating-box ">
+<h2>Existing Reservations</h2>
+<table>
+<thead>
+<th>Name</th>
+<th>Day</th>
+</thead>
+<tbody> [ form data will publish here ] </tbody>
+</table>
+ </div>
+
+
+
+
+
+
+<h2>Come Dine with Us</h2>
+<!-- <script>
+  function initMap() {
+var map = new google.maps.Map(document.getElementById('#map'), {
+    center: {lat: 40.8054491, lng: -73.9654415},
+    zoom: 10
+  });
+  }
+</script>-->
+   <div id = 'map'></div>
+  
+ 
+
+<h2>Customer Review</h2>
+ <div id="left-comment" class="floating-box">
+ <ul>
+ <li>
+ 	<img id="profile" class="profile" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg"> Jerry 1</li>
+ 	<li><img id="profile" class="profile" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg"> Jerry 2</li>
+ 
+ 	</ul>
+ </div>
+<div id="right-comment" class="floating-box">
+<ul>
+<li>"NO SOUP FOR YOU!! 10/10 would eat agian though!"</li>
+<li>
+<br></br>more content more better!</li>
+
+</ul>
+</div>
+<!-- 
+Customer Reviews
+“Big lettuce, big carrots, tomatoes like volleyballs.”
+— Jerry Seinfeld, on The BIG Salad -->
+ 
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/main.js"></script>
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBznTnzMq_wqX9NLu8--_w-s2LP2KSt4IY&callback=initMap"></script>
+
+
+</body>
+</html>
